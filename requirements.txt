@@ -1,0 +1,9 @@
+notebook
+
+requests==2.31.0
+beautifulsoup4==4.12.3
+pandas==2.2.2
+lxml==5.2.1
+selenium==4.20.0
+openpyxl==3.1.2  # if you're exporting to Excel
+python-dotenv==1.0.1  # optional: for managing environment variables (like URLs, paths)
