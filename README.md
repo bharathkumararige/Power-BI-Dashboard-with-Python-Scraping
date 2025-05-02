@@ -4,13 +4,13 @@ This project demonstrates how to scrape real-time data from the web using Python
 
 ## 🧰 Technologies Used
 
-- **Python**: `requests`, `BeautifulSoup`, `pandas`, `selenium` (optional)
+- **Python**: `requests`, `BeautifulSoup`, `pandas`.
 - **Power BI Desktop**
 - **Power Query Editor**
 
 ## 🚀 Project Overview
 
-- Scrapes data from [].
+- Scrapes data from [http://books.toscrape.com/"].
 - Cleans and formats data using pandas.
 - Exports the cleaned data to CSV.
 - Imports the CSV into Power BI to create visualizations and dashboards.
