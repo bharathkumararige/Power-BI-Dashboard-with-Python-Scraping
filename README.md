@@ -23,17 +23,29 @@ This project demonstrates a **modern cloud data engineering workflow**. Instead 
 
 
 Web Source (books.toscrape.com)
+
      ↓
+
 Python Web Scraping (requests + BeautifulSoup)
+
      ↓
+     
 Data Cleaning & Processing (Pandas)
+ 
      ↓
+     
 cloud pipeline Automation (gspread + google service account)
+     
      ↓
+     
 Live Cloud Data Layer(Google sheets - "Book_scraper_data)
+     
      ↓
+     
 Import into Power BI
+     
      ↓
+     
 Interactive Dashboard (books.pbix)
 
 
@@ -78,23 +90,30 @@ Note: The project requires a local `credentials.json` file in the root directory
 
 ##1. Clone the Repository
 git clone [https://github.com/bharathkumararige/Power-BI-Dashboard-with-Python-Scraping.git](https://github.com/bharathkumararige/Power-BI-Dashboard-with-Python-Scraping.git)cd Power-BI-Dashboard-with-Python-Scraping
+
 2. Install Dependencies
 pip install -r requirements.txt
-3. Setup Credentials
+
+4. Setup Credentials
 Generate a Service Account key (credentials.json) via your Google Cloud Console.
 Enable both the Google Sheets API and Google Drive API in your cloud console project.
 Place your credentials.json directly into this project's folder.
 Share your Google Sheet (Book_Scraper_Data) with the client email address found inside your credentials.json.
-4. Run the Pipeline
+
+6. Run the Pipeline
 python sheet_pipeline.py
+
 The terminal will scrape 20 live records, connect to the cloud, refresh the data layout, and update your cloud sheet instantly!
+
 📈 Dashboard Insights
 The live Google Sheets dashboard tracks:
 📚 Book ratings distribution across web categories.
 💰 Price analysis metrics by genre and stock levels.
 📦 Stock availability status maps.
 📊 Dynamic Charts that redraw automatically upon script completion without needing a manual refresh button.
+
 💡 What I Learned
+
 Designing decoupled cloud data pipelines without relying on rigid local storage files.
 Managing secure authentication profiles using service accounts and Google Cloud Manager.
 Securing production files and preventing API token exposure on GitHub using .gitignore.
