@@ -76,9 +76,8 @@ Note: The project requires a local `credentials.json` file in the root directory
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-git clone [https://github.com/bharathkumararige/Power-BI-Dashboard-with-Python-Scraping.git](https://github.com/bharathkumararige/Power-BI-Dashboard-with-Python-Scraping.git)
-cd Power-BI-Dashboard-with-Python-Scraping
+##1. Clone the Repository
+git clone [https://github.com/bharathkumararige/Power-BI-Dashboard-with-Python-Scraping.git](https://github.com/bharathkumararige/Power-BI-Dashboard-with-Python-Scraping.git)cd Power-BI-Dashboard-with-Python-Scraping
 2. Install Dependencies
 pip install -r requirements.txt
 3. Setup Credentials
