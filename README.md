@@ -20,16 +20,17 @@ This project demonstrates a **modern cloud data engineering workflow**. Instead 
 ---
 
 ## 🚀 Pipeline Architecture
+
 Web Source (books.toscrape.com)
-↓
+             ↓
 Python Web Scraping (requests + BeautifulSoup)
-↓
+             ↓
 Data Cleaning & Processing (Pandas)
-↓
+             ↓
 Cloud Pipeline Automation (gspread + Google Service Account)
-↓
+             ↓
 Live Cloud Data Layer (Google Sheets - 'Book_Scraper_Data')
-↓
+             ↓
 Automated Dashboard & Visualizations (power BI / Google Sheets )
 ---
 
